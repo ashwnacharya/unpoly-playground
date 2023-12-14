@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/unpoly@3.6.1/unpoly.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daisyui@4.4.19/dist/full.min.css" />
+    </head>
+    <body>
+        <div class="navbar bg-base-100">
+            <div class="flex-1">
+                <a class="btn btn-ghost text-xl">Where I learn Unpoly</a>
+            </div>
+        </div>
+        <div class="container mx-auto px-4">
+            <div class="columns-1 py-4">
+                <div class="flex flex-col items-center">
+                    <p>Example of fragments using the <span class="badge">up-target</span> attribute </p>
+                </div>
+            </div>
+            <div class="columns-2 py-4">
+                <div class="flex flex-col items-center">
+                    <a href="/ex01/other" class="one" up-target=".one">
+                        <button class="btn btn-primary">From home</button>
+                    </a>
+                </div>
+                
+                <div class="flex flex-col items-center">
+                    <a href="/ex01/other" class="two" up-target=".two">
+                        <button class="btn btn-secondary">From home</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://cdn.jsdelivr.net/npm/unpoly@3.6.1/unpoly.min.js"></script>
+
+    </body>
+</html>
