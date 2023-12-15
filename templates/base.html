@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    {% block head %}
+    <head>
+        {% block title %}
+        <title>Home</title>
+        {% endblock %}
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/unpoly@3.6.1/unpoly.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daisyui@4.4.19/dist/full.min.css" />
+    </head>
+    {% endblock %}
+    <body>
+        {% block navbar %}
+        <div class="navbar bg-base-100">
+            <div class="flex-1">
+                <a href="/" up-target=".content" class="btn btn-ghost text-xl">Where I learn Unpoly</a>
+            </div>
+        </div>
+        {% endblock %}
+        {% block content %} 
+        {% endblock %}
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://cdn.jsdelivr.net/npm/unpoly@3.6.1/unpoly.min.js"></script>
+
+    </body>
+</html>
